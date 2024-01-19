@@ -1,0 +1,122 @@
+body{margin: 0px;
+    padding: 0px;}
+
+nav{height: 60px;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     padding: opx 12px;}
+
+input{ height: 40px;
+    width: 600px;
+border: 2px solid rgb(24, 24, 24);
+border-radius: 20px;
+margin-left: 250px;}
+
+    
+i{ font-size: 20px;
+margin:7px;
+padding:6px;}
+ 
+nav >span{ font-size: 25px;
+}
+
+.categories{ margin: 0px 5px; 
+cursor: pointer;
+}
+
+.categories:hover { text-decoration:underline;}
+
+.hearder{ width: 100%;
+height: 550px;}
+
+.box{ width: 300px;
+height: 400px;}
+
+.box_title{
+    display: block;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+
+.box_desc{
+        display: block;
+        font-size: 30px;}
+     
+.logo{ font-size:  1.5em ;
+font-weight: bold;
+margin-left: 10px;
+color:whitesmoke;}  
+span{ color: aliceblue;}
+
+.container{ 
+    max-width: 1200px;
+    margin: auto;
+    background:rgb(255, 255, 255);
+    overflow: auto;
+    display: flex;
+    padding: 40px
+ }
+
+.gallery{
+    margin: 5px;
+    /* border: 1px solid #ccc; */
+    float: left;
+    width: 400px; 
+}
+
+    .gallery img { 
+
+    width: 250px;
+     height: 250px;
+     transform: scale(1.0);
+     transition: 0.5s;
+     border-radius: 50%;}
+
+    .desc{ 
+        padding: 15px;
+        text-align: center;
+    }
+    .containers{
+        max-width: 1200px;
+        margin: auto;
+        background:rgb(255, 255, 255);
+        overflow: auto;
+        display: flex;
+        padding: 40px
+     }
+    
+
+     .product {
+        width: calc(33.33% - 20px);
+        text-align: center;
+    }
+
+   .product{
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 10px;
+
+    
+    display: flex;
+   
+    }
+    .product img{ width: 100$;}
+
+   
+        
+        
+h1{ text-align: center;}
+
+.gallery:hover {transform: 
+    scale(1.03);
+    transition: 0.5s }
+
+    p{ text-align: center;
+    color: red;
+    }
+
+
+   
